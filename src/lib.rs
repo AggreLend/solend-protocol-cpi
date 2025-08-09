@@ -1,5 +1,5 @@
 use anchor_lang::{
-    prelude::*,
+    prelude:,
     solana_program::{self, entrypoint::ProgramResult},
     Accounts, Key, ToAccountInfo, ToAccountInfos, ToAccountMetas,
 };
